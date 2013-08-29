@@ -53,6 +53,18 @@ HW method:
    Turn off the device
    Press and hold "Back"+"Home"+"SHIELD" buttons till device boots
 
+If this is the first time you have done this procedure, you must unlock
+your bootloader.  To unlock your bootloader, run the following command
+in a terminal:
+
+fastboot oem unlock
+
+Next do the following:
+   Press the Home button on the device to highlight "Unlock"
+   Press the SHIELD button to confirm the unlock
+
+Your device's bootloader should now be unlocked.
+
 To flash images from this build to your SHIELD, run the following commands
 from the same terminal where you did your build:
 
