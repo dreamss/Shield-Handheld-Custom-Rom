@@ -393,9 +393,9 @@
   <project path="vendor/nvidia/licensed-binaries" name="tegra/prebuilts-licensed-binary-secureos-tegratab" />
 
   <!--This is actually a "prebuilts" repo. We copy the some ti repos code without history. -->
-  <project path="3rdparty/ti/binaries/bluetooth-firmware" name="3rdparty/ti/binaries/bluetooth-firmware-release" revision="rel-tegranote" />
-  <project path="3rdparty/ti/binaries/wifi-firmware" name="3rdparty/ti/binaries/wifi-firmware-release" revision="rel-tegranote" />
-  <project path="3rdparty/ti/ti-utils" name="3rdparty/ti/ti-utils-release" revision="rel-tegranote" />
+  <project path="3rdparty/ti/binaries/bluetooth-firmware" name="3rdparty/ti/binaries/bluetooth-firmware-release" />
+  <project path="3rdparty/ti/binaries/wifi-firmware" name="3rdparty/ti/binaries/wifi-firmware-release" />
+  <project path="3rdparty/ti/ti-utils" name="3rdparty/ti/ti-utils-release" />
 
   <!-- This is actually a "prebuilts" repo. We copy the webkit code without history. -->
   <project path="external/webkit" name="android/platform/external/webkit-release" />
