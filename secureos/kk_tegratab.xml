@@ -397,8 +397,6 @@
   <project path="3rdparty/ti/binaries/wifi-firmware" name="3rdparty/ti/binaries/wifi-firmware-release" />
   <project path="3rdparty/ti/ti-utils" name="3rdparty/ti/ti-utils-release" />
 
-  <!-- This is actually a "prebuilts" repo. We copy the webkit code without history. -->
-  <project path="external/webkit" name="android/platform/external/webkit-release" />
   <!-- This is actually a "prebuilts" repo. We copy device/nvidia without history. -->
   <project path="device/nvidia" name="tegra/prebuilts-device-nvidia" />
 
