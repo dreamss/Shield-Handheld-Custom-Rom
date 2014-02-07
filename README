@@ -49,11 +49,19 @@ SW method:
    Open terminal(on linux)
    Type "adb reboot bootloader" in terminal
 
+HW method:
+   Turn off the device
+   Press and hold "Volume Up"+"Power" buttons till device boots
+
 If this is the first time you have done this procedure, you must unlock
 your bootloader.  To unlock your bootloader, run the following command
 in a terminal:
 
 fastboot oem unlock
+
+Next do the following:
+   Select "Unlock bootloader" option on device
+   Press the power button to confirm the unlock
 
 Your device's bootloader should now be unlocked.
 
