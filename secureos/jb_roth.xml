@@ -3,7 +3,7 @@
   <remote  name="origin"
            fetch="../.."
            review="nv-git-07.nvidia.com/r" />
-  <default revision="rel-roth-jb-mr2-partner"
+  <default revision="rel-roth-r4-partner"
            remote="origin" />
 
   <!-- BEGIN open-source projects -->
@@ -16,7 +16,7 @@
   <project path="bootable/bootloader/legacy" name="android/platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="android/platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="android/platform/bootable/recovery" />
-  <project path="cts" name="android/platform/cts" revision="rel-roth-jb-mr2" />
+  <project path="cts" name="android/platform/cts" revision="rel-roth-r4" />
   <project path="dalvik" name="android/platform/dalvik" />
   <project path="development" name="android/platform/development" />
   <project path="developers/build" name="android/platform/developers/build" />
@@ -44,7 +44,7 @@
   <project path="external/bzip2" name="android/platform/external/bzip2" />
   <project path="external/ceres-solver" name="android/platform/external/ceres-solver" />
   <project path="external/checkpolicy" name="android/platform/external/checkpolicy" />
-  <project path="external/chromium" name="android/platform/external/chromium" revision="rel-roth-jb-mr2" />
+  <project path="external/chromium" name="android/platform/external/chromium" revision="rel-roth-r4" />
   <project path="external/chromium-trace" name="android/platform/external/chromium-trace" />
   <project path="external/clang" name="android/platform/external/clang" />
   <project path="external/compiler-rt" name="android/platform/external/compiler-rt" />
@@ -94,7 +94,7 @@
   <project path="external/jsilver" name="android/platform/external/jsilver" />
   <project path="external/jsr305" name="android/platform/external/jsr305" />
   <project path="external/junit" name="android/platform/external/junit" />
-  <project path="external/kernel-headers" name="android/platform/external/kernel-headers" revision="rel-roth-jb-mr2" />
+  <project path="external/kernel-headers" name="android/platform/external/kernel-headers" revision="rel-roth-r4" />
   <project path="external/libcap-ng" name="android/platform/external/libcap-ng" />
   <project path="external/libffi" name="android/platform/external/libffi" />
   <project path="external/libgsm" name="android/platform/external/libgsm" />
@@ -114,7 +114,7 @@
   <project path="external/libusb_aah" name="android/platform/external/libusb_aah" />
   <project path="external/libusb-compat" name="android/platform/external/libusb-compat" />
   <project path="external/libvorbis" name="android/platform/external/libvorbis" />
-  <project path="external/libvpx" name="android/platform/external/libvpx" revision="rel-roth-jb-mr2" />
+  <project path="external/libvpx" name="android/platform/external/libvpx" revision="rel-roth-r4" />
   <project path="external/libxml2" name="android/platform/external/libxml2" />
   <project path="external/libxslt" name="android/platform/external/libxslt" />
   <project path="external/libyuv" name="android/platform/external/libyuv" />
@@ -178,7 +178,7 @@
   <project path="external/tinyxml2" name="android/platform/external/tinyxml2" />
   <project path="external/tremolo" name="android/platform/external/tremolo" />
   <project path="external/v8" name="android/platform/external/v8" />
-  <project path="external/valgrind" name="android/platform/external/valgrind" revision="rel-roth-jb-mr2" />
+  <project path="external/valgrind" name="android/platform/external/valgrind" revision="rel-roth-r4" />
   <project path="external/webp" name="android/platform/external/webp" />
   <project path="external/webrtc" name="android/platform/external/webrtc" />
   <project path="external/wpa_supplicant_8" name="android/platform/external/wpa_supplicant_8" />
@@ -223,7 +223,7 @@
   <project path="hardware/ril" name="android/platform/hardware/ril" />
   <project path="libcore" name="android/platform/libcore" />
   <project path="libnativehelper" name="android/platform/libnativehelper" />
-  <project path="ndk" name="android/platform/ndk" revision="rel-roth-jb-mr2" />
+  <project path="ndk" name="android/platform/ndk" revision="rel-roth-r4" />
   <project path="packages/apps/BasicSmsReceiver" name="android/platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="android/platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="android/platform/packages/apps/Browser" />
@@ -324,7 +324,7 @@
   <project path="sdk" name="android/platform/sdk" />
   <project path="system/bluetooth" name="android/platform/system/bluetooth" />
   <project path="system/core" name="android/platform/system/core" />
-  <project path="system/extras" name="android/platform/system/extras" />
+  <project path="system/extras" name="android/platform/system/extras" revision="rel-roth-r4" />
   <project path="system/media" name="android/platform/system/media" />
   <project path="system/netd" name="android/platform/system/netd" />
   <project path="system/security" name="android/platform/system/security" />
@@ -337,20 +337,20 @@
 
   <!-- Begin NVIDIA Repositories -->
 
-  <project path="kernel" name="linux-2.6" revision="rel-roth"/>
+  <project path="kernel" name="linux-2.6" revision="rel-roth-r4" />
 
-  <project path="vendor/nvidia/build" name="android/platform/vendor/nvidia/build" revision="rel-roth"/>
-  <project path="external/alsa-lib" name="android/platform/external/alsa-lib" revision="rel-roth"/>
-  <project path="3rdparty/intel/tbb" name="3rdparty/intel/tbb" revision="rel-roth" remote="origin" />
+  <project path="vendor/nvidia/build" name="android/platform/vendor/nvidia/build" revision="rel-roth-r4" />
+  <project path="external/alsa-lib" name="android/platform/external/alsa-lib" revision="rel-roth-r4" />
+  <project path="3rdparty/intel/tbb" name="3rdparty/intel/tbb" remote="origin" revision="rel-roth-r4" />
 
 
-  <project path="vendor/nvidia/shieldtech/common" name="tegra/shieldtech/common" revision="rel-roth" />
+  <project path="vendor/nvidia/shieldtech/common" name="tegra/shieldtech/common" revision="rel-roth-r4" />
 
-  <project path="vendor/nvidia/licensed-binaries" name="tegra/prebuilts-licensed-binary-secureos-roth" revision="rel-roth-partner"/>
+  <project path="vendor/nvidia/licensed-binaries" name="tegra/prebuilts-licensed-binary-secureos-roth"/>
   <!-- This is actually a "prebuilts" repo. We copy the webkit code without
        history. -->
-  <project path="external/webkit" name="android/platform/external/webkit-release" revision="rel-roth-partner"/>
+  <project path="external/webkit" name="android/platform/external/webkit-release"/>
   <!-- This is actually a "prebuilts" repo. We copy device/nvidia without
        history. -->
-  <project path="device/nvidia" name="tegra/prebuilts-device-nvidia" revision="rel-roth-partner"/>
+  <project path="device/nvidia" name="tegra/prebuilts-device-nvidia"/>
 </manifest>
