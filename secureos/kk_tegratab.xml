@@ -51,7 +51,7 @@
   <project path="external/chromium_org/sdch/open-vcdiff" name="android/platform/external/chromium_org/sdch/open-vcdiff" />
   <project path="external/chromium_org/testing/gtest" name="android/platform/external/chromium_org/testing/gtest" />
   <project path="external/chromium_org/third_party/WebKit" name="android/platform/external/chromium_org/third_party/WebKit" />
-  <project path="external/chromium_org/third_party/angle_dx11" name="android/platform/external/chromium_org/third_party/angle_dx11" />
+  <project path="external/chromium_org/third_party/angle" name="android/platform/external/chromium_org/third_party/angle" />
   <project path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" name="android/platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" />
   <project path="external/chromium_org/third_party/freetype" name="android/platform/external/chromium_org/third_party/freetype" />
   <project path="external/chromium_org/third_party/icu" name="android/platform/external/chromium_org/third_party/icu" />
@@ -63,6 +63,7 @@
   <project path="external/chromium_org/third_party/openssl" name="android/platform/external/chromium_org/third_party/openssl" />
   <project path="external/chromium_org/third_party/opus/src" name="android/platform/external/chromium_org/third_party/opus/src" />
   <project path="external/chromium_org/third_party/ots" name="android/platform/external/chromium_org/third_party/ots" />
+  <project path="external/chromium_org/third_party/sfntly/cpp/src" name="android/platform/external/chromium_org/third_party/sfntly/cpp/src" />
   <project path="external/chromium_org/third_party/skia/gyp" name="android/platform/external/chromium_org/third_party/skia/gyp" />
   <project path="external/chromium_org/third_party/skia/include" name="android/platform/external/chromium_org/third_party/skia/include" />
   <project path="external/chromium_org/third_party/skia/src" name="android/platform/external/chromium_org/third_party/skia/src" />
@@ -124,6 +125,7 @@
   <project path="external/junit" name="android/platform/external/junit" />
   <project path="external/kernel-headers" name="android/platform/external/kernel-headers" revision="rel-tegranote" />
   <project path="external/libcap-ng" name="android/platform/external/libcap-ng" revision="rel-tegranote" />
+  <project path="external/libexif" name="android/platform/external/libexif" />
   <project path="external/libffi" name="android/platform/external/libffi" />
   <project path="external/libgsm" name="android/platform/external/libgsm" />
   <project path="external/liblzf" name="android/platform/external/liblzf" />
@@ -243,7 +245,7 @@
   <project path="frameworks/rs" name="android/platform/frameworks/rs" />
   <project path="frameworks/support" name="android/platform/frameworks/support" />
   <project path="frameworks/testing" name="android/platform/frameworks/testing" />
-  <project path="frameworks/uiautomator" name="android/platform/frameworks/uiautomator" />
+  <!--<project path="frameworks/uiautomator" name="android/platform/frameworks/uiautomator" />-->
   <project path="frameworks/volley" name="android/platform/frameworks/volley" />
   <project path="frameworks/webview" name="android/platform/frameworks/webview" />
   <project path="frameworks/wilhelm" name="android/platform/frameworks/wilhelm" />
