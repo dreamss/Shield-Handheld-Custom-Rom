@@ -11,7 +11,7 @@ http://source.android.com/source/downloading.html#installing-repo
 
 mkdir ~/tegranote-open-source
 cd ~/tegranote-open-source
-repo init -u git://nv-tegra.nvidia.com/manifest/android/binary.git -b rel-tegranote-partner -m secureos/kk_tegratab.xml
+repo init -u git://nv-tegra.nvidia.com/manifest/android/binary.git -b rel-tegranote-r6-partner -m secureos/kk_tegratab.xml
 repo sync -j5
 
 
@@ -33,6 +33,7 @@ cd $TOP
 . build/envsetup.sh
 setpaths
 lunch tegratab-userdebug
+export NV_TN_SKU=tn7_114gp_2014
 mp dev
 
 ==========
@@ -73,6 +74,5 @@ fastboot flash recovery recovery.img
 fastboot flash boot boot.img
 fastboot flash system system.img
 fastboot flash userdata userdata.img
-fastboot flash dtb tegra114-tegratab.dtb
+fastboot flash dtb tegra114-tegratab-p1988.dtb
 fastboot reboot
-
