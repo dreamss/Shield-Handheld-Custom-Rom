@@ -67,8 +67,8 @@ in a terminal:
 fastboot oem unlock
 
 Next do the following:
-   Select "Unlock bootloader" option on device
-   Press the power button to confirm the unlock
+   Press the "Volume Down" button to select "Unlock bootloader" option on device
+   Press the "Power" button to confirm the unlock
 
 Your device's bootloader should now be unlocked.
 
@@ -80,6 +80,6 @@ fastboot flash recovery recovery.img
 fastboot flash boot boot.img
 fastboot flash system system.img
 fastboot flash userdata userdata.img
-fastboot flash dtb tegra124-tn8-p1761-1270-a03-battery.dtb
+fastboot flash dtb tegra124-tn8-p1761-1270-a04-e-battery.dtb
 fastboot reboot
 
