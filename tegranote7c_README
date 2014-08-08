@@ -11,7 +11,7 @@ http://source.android.com/source/downloading.html#installing-repo
 
 mkdir ~/tegranote-open-source
 cd ~/tegranote-open-source
-repo init -u git://nv-tegra.nvidia.com/manifest/android/binary.git -b rel-tegranote-r6-partner -m secureos/kk_tegranote7c.xml
+repo init -u git://nv-tegra.nvidia.com/manifest/android/binary.git -b rel-tegranote-r8-partner -m secureos/kk_tegranote7c.xml
 repo sync -j5
 
 
