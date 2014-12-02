@@ -16,7 +16,7 @@
   <project path="art" name="android/platform/art" />
   <project path="bionic" name="android/platform/bionic" />
   <project path="bootable/bootloader/legacy" name="android/platform/bootable/bootloader/legacy" />
-  <project path="bootable/recovery" name="android/platform/bootable/recovery" />
+  <project path="bootable/recovery" name="android/platform/bootable/recovery" revision="rel-st8-l-r2" />
   <project path="cts" name="android/platform/cts" />
   <project path="dalvik" name="android/platform/dalvik" />
   <project path="development" name="android/platform/development" />
@@ -91,7 +91,7 @@
   <project path="external/dnsmasq" name="android/platform/external/dnsmasq" revision="rel-st8-l-r2" />
   <project path="external/doclava" name="android/platform/external/doclava" />
   <project path="external/droiddriver" name="android/platform/external/droiddriver" />
-  <project path="external/e2fsprogs" name="android/platform/external/e2fsprogs" revision="rel-st8-l-r2" />
+  <project path="external/e2fsprogs" name="android/platform/external/e2fsprogs" />
   <project path="external/easymock" name="android/platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="android/platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="android/platform/external/eclipse-windowbuilder" />
@@ -101,9 +101,9 @@
   <project path="external/esd" name="android/platform/external/esd" />
   <project path="external/expat" name="android/platform/external/expat" />
   <project path="external/eyes-free" name="android/platform/external/eyes-free" />
-  <project path="external/f2fs-tools" name="android/platform/external/f2fs-tools" />
+  <project path="external/f2fs-tools" name="android/platform/external/f2fs-tools" revision="rel-st8-l-r2" />
   <project path="external/fdlibm" name="android/platform/external/fdlibm" />
-  <project path="external/fio" name="android/platform/external/fio" />
+  <project path="external/fio" name="android/platform/external/fio" revision="rel-st8-l-r2" />
   <project path="external/flac" name="android/platform/external/flac" />
   <project path="external/fonttools" name="android/platform/external/fonttools" />
   <project path="external/freetype" name="android/platform/external/freetype" />
@@ -147,14 +147,14 @@
   <project path="external/libcxx" name="android/platform/external/libcxx" />
   <project path="external/libcxxabi" name="android/platform/external/libcxxabi" />
   <project path="external/libedit" name="android/platform/external/libedit" />
-  <project path="external/libexif" name="android/platform/external/libexif" />
+  <project path="external/libexif" name="android/platform/external/libexif" revision="rel-st8-l-r2" />
   <project path="external/libhevc" name="android/platform/external/libhevc" />
   <project path="external/libgsm" name="android/platform/external/libgsm" />
   <project path="external/liblzf" name="android/platform/external/liblzf" />
   <project path="external/libmtp" name="android/platform/external/libmtp" />
   <project path="external/libnfc-nci" name="android/platform/external/libnfc-nci" />
   <project path="external/libnfc-nxp" name="android/platform/external/libnfc-nxp" />
-  <project path="external/libnl" name="android/platform/external/libnl" />
+  <project path="external/libnl" name="android/platform/external/libnl" revision="rel-st8-l-r2" />
   <project path="external/libogg" name="android/platform/external/libogg" />
   <project path="external/libopus" name="android/platform/external/libopus" />
   <project path="external/libpcap" name="android/platform/external/libpcap" />
@@ -176,7 +176,7 @@
   <project path="external/littlemock" name="android/platform/external/littlemock" />
   <project path="external/lldb" name="android/platform/external/lldb" />
   <project path="external/llvm" name="android/platform/external/llvm" />
-  <project path="external/ltrace" name="android/platform/external/ltrace" />
+  <project path="external/ltrace" name="android/platform/external/ltrace" revision="rel-st8-l-r2" />
   <project path="external/lzma" name="android/platform/external/lzma" />
   <project path="external/markdown" name="android/platform/external/markdown" />
   <project path="external/mdnsresponder" name="android/platform/external/mdnsresponder" />
@@ -193,7 +193,7 @@
   <project path="external/netcat" name="android/platform/external/netcat" />
   <project path="external/netperf" name="android/platform/external/netperf" />
   <project path="external/neven" name="android/platform/external/neven" />
-  <project path="external/nfacct" name="android/platform/external/nfacct" />
+  <project path="external/nfacct" name="android/platform/external/nfacct" revision="rel-st8-l-r2" />
   <project path="external/nist-pkits" name="android/platform/external/nist-pkits" />
   <project path="external/nist-sip" name="android/platform/external/nist-sip" />
   <project path="external/noto-fonts" name="android/platform/external/noto-fonts" />
