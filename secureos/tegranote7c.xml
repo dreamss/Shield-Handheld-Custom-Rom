@@ -7,8 +7,8 @@
 
   <!-- BEGIN open-source projects -->
 
-  <project path="build" name="android/platform/build" groups="pdk" >
-   <copyfile src="core/root.mk" dest="Makefile" />
+  <project path="build" name="android/platform/build" groups="pdk,tradefed" >
+    <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="android/platform/abi/cpp" groups="pdk" />
   <project path="art" name="android/platform/art" groups="pdk" />
@@ -26,12 +26,12 @@
   <project path="device/generic/goldfish" name="android/device/generic/goldfish" groups="pdk" />
   <project path="device/generic/mini-emulator-arm64" name="android/device/generic/mini-emulator-arm64" groups="pdk" />
   <project path="device/generic/mini-emulator-armv7-a-neon" name="android/device/generic/mini-emulator-armv7-a-neon" groups="pdk" />
-  <project path="device/google/atv" name="android/device/google/atv" />
+  <project path="device/google/atv" name="android/device/google/atv" groups="device,fugu" />
   <project path="device/sample" name="android/device/sample" groups="pdk" />
   <project path="external/aac" name="android/platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="android/platform/external/android-clat" groups="pdk-cw-fs" />
   <project path="external/ant-glob" name="android/platform/external/ant-glob" groups="pdk-cw-fs" />
-  <project path="external/antlr" name="android/platform/external/antlr" groups="pdk-cw-fs" />
+  <project path="external/antlr" name="android/platform/external/antlr" groups="pdk-cw-fs,tradefed" />
   <project path="external/apache-harmony" name="android/platform/external/apache-harmony" groups="pdk-cw-fs" />
   <project path="external/apache-http" name="android/platform/external/apache-http" groups="pdk-cw-fs" />
   <project path="external/apache-qp" name="android/platform/external/apache-qp" groups="pdk-cw-fs" />
@@ -52,6 +52,7 @@
   <project path="external/chromium_org/testing/gtest" name="android/platform/external/chromium_org/testing/gtest" />
   <project path="external/chromium_org/third_party/WebKit" name="android/platform/external/chromium_org/third_party/WebKit" />
   <project path="external/chromium_org/third_party/angle" name="android/platform/external/chromium_org/third_party/angle" />
+  <project path="external/chromium_org/third_party/boringssl/src" name="android/platform/external/chromium_org/third_party/boringssl/src" />
   <project path="external/chromium_org/third_party/brotli/src" name="android/platform/external/chromium_org/third_party/brotli/src" />
   <project path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" name="android/platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" />
   <project path="external/chromium_org/third_party/freetype" name="android/platform/external/chromium_org/third_party/freetype" />
@@ -67,7 +68,6 @@
   <project path="external/chromium_org/third_party/libyuv" name="android/platform/external/chromium_org/third_party/libyuv" />
   <project path="external/chromium_org/third_party/mesa/src" name="android/platform/external/chromium_org/third_party/mesa/src" />
   <project path="external/chromium_org/third_party/openmax_dl" name="android/platform/external/chromium_org/third_party/openmax_dl" />
-  <project path="external/chromium_org/third_party/openssl" name="android/platform/external/chromium_org/third_party/openssl" />
   <project path="external/chromium_org/third_party/opus/src" name="android/platform/external/chromium_org/third_party/opus/src" />
   <project path="external/chromium_org/third_party/ots" name="android/platform/external/chromium_org/third_party/ots" />
   <project path="external/chromium_org/third_party/sfntly/cpp/src" name="android/platform/external/chromium_org/third_party/sfntly/cpp/src" />
@@ -87,15 +87,15 @@
   <project path="external/dexmaker" name="android/platform/external/dexmaker" groups="pdk-cw-fs" />
   <project path="external/dhcpcd" name="android/platform/external/dhcpcd" groups="pdk-cw-fs" />
   <project path="external/dnsmasq" name="android/platform/external/dnsmasq" revision="rel-tegranote-l" groups="pdk" />
-  <project path="external/doclava" name="android/platform/external/doclava" groups="pdk-cw-fs" />
+  <project path="external/doclava" name="android/platform/external/doclava" groups="pdk-cw-fs,tradefed" />
   <project path="external/droiddriver" name="android/platform/external/droiddriver" groups="pdk-cw-fs" />
   <project path="external/e2fsprogs" name="android/platform/external/e2fsprogs" groups="pdk" />
-  <project path="external/easymock" name="android/platform/external/easymock" groups="pdk-cw-fs" />
+  <project path="external/easymock" name="android/platform/external/easymock" groups="pdk-cw-fs,tradefed" />
   <project path="external/eclipse-basebuilder" name="android/platform/external/eclipse-basebuilder" groups="pdk-cw-fs" />
   <project path="external/eclipse-windowbuilder" name="android/platform/external/eclipse-windowbuilder" groups="pdk-cw-fs" />
   <project path="external/eigen" name="android/platform/external/eigen" groups="pdk-cw-fs" />
   <project path="external/elfutils" name="android/platform/external/elfutils" groups="pdk" />
-  <project path="external/emma" name="android/platform/external/emma" groups="pdk-cw-fs" />
+  <project path="external/emma" name="android/platform/external/emma" groups="pdk-cw-fs,tradefed" />
   <project path="external/esd" name="android/platform/external/esd" groups="pdk-cw-fs" />
   <project path="external/expat" name="android/platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="android/platform/external/eyes-free" groups="pdk-cw-fs" />
@@ -117,8 +117,8 @@
   <project path="external/google-fonts/cutive-mono" name="android/platform/external/google-fonts/cutive-mono" groups="pdk-cw-fs" />
   <project path="external/google-tv-pairing-protocol" name="android/platform/external/google-tv-pairing-protocol" />
   <project path="external/gtest" name="android/platform/external/gtest" groups="pdk" />
-  <project path="external/guava" name="android/platform/external/guava" groups="pdk-cw-fs" />
-  <project path="external/hamcrest" name="android/platform/external/hamcrest" groups="pdk-cw-fs" />
+  <project path="external/guava" name="android/platform/external/guava" groups="pdk-cw-fs,tradefed" />
+  <project path="external/hamcrest" name="android/platform/external/hamcrest" groups="pdk-cw-fs,tradefed" />
   <project path="external/harfbuzz_ng" name="android/platform/external/harfbuzz_ng" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/icu" name="android/platform/external/icu" groups="pdk" />
   <project path="external/iproute2" name="android/platform/external/iproute2" revision="rel-tegranote-l" groups="pdk" />
@@ -130,17 +130,18 @@
   <project path="external/javasqlite" name="android/platform/external/javasqlite" groups="pdk-cw-fs" />
   <project path="external/javassist" name="android/platform/external/javassist" groups="pdk-cw-fs" />
   <project path="external/jdiff" name="android/platform/external/jdiff" revision="rel-tegranote-l" groups="pdk-cw-fs" />
-  <project path="external/jemalloc" name="android/platform/external/jemalloc" />
+  <project path="external/jemalloc" name="android/platform/external/jemalloc" groups="pdk" />
   <project path="external/jhead" name="android/platform/external/jhead" groups="pdk" />
+  <project path="external/jline" name="android/platform/external/jline" groups="notdefault,tradefed" />
   <project path="external/jmdns" name="android/platform/external/jmdns" groups="pdk-cw-fs" />
   <project path="external/jpeg" name="android/platform/external/jpeg" groups="pdk" />
-  <project path="external/jsilver" name="android/platform/external/jsilver" groups="pdk-cw-fs" />
-  <project path="external/jsmn" name="android/platform/external/jsmn" />
-  <project path="external/jsoncpp" name="android/platform/external/jsoncpp" />
-  <project path="external/jsr305" name="android/platform/external/jsr305" groups="pdk-cw-fs" />
-  <project path="external/junit" name="android/platform/external/junit" groups="pdk-cw-fs" />
-  <project path="external/ksoap2" name="android/platform/external/ksoap2" />
-  <project path="external/kernel-headers" name="android/platform/external/kernel-headers" revision="rel-tegranote-l" />
+  <project path="external/jsilver" name="android/platform/external/jsilver" groups="pdk-cw-fs,tradefed" />
+  <project path="external/jsmn" name="android/platform/external/jsmn" groups="pdk" />
+  <project path="external/jsoncpp" name="android/platform/external/jsoncpp" groups="pdk-cw-fs" />
+  <project path="external/jsr305" name="android/platform/external/jsr305" groups="pdk-cw-fs,tradefed" />
+  <project path="external/junit" name="android/platform/external/junit" groups="pdk-cw-fs,tradefed" />
+  <project path="external/ksoap2" name="android/platform/external/ksoap2" groups="pdk-cw-fs" />
+  <project path="external/kernel-headers" name="android/platform/external/kernel-headers" revision="rel-tegranote-l" groups="pdk-cw-fs"/>
   <project path="external/libcap-ng" name="android/platform/external/libcap-ng" revision="rel-tegranote-l" groups="pdk-cw-fs" />
   <project path="external/libcxx" name="android/platform/external/libcxx" groups="pdk" />
   <project path="external/libcxxabi" name="android/platform/external/libcxxabi" groups="pdk" />
@@ -155,7 +156,7 @@
   <project path="external/libnl" name="android/platform/external/libnl" revision="rel-tegranote-l" groups="pdk" />
   <project path="external/libogg" name="android/platform/external/libogg" groups="pdk" />
   <project path="external/libopus" name="android/platform/external/libopus" groups="pdk" />
-  <project path="external/libpcap" name="android/platform/external/libpcap" groups="pdk-cw-fs" />
+  <project path="external/libpcap" name="android/platform/external/libpcap" groups="pdk,pdk-cw-fs" />
   <project path="external/libphonenumber" name="android/platform/external/libphonenumber" groups="pdk-cw-fs" />
   <project path="external/libpng" name="android/platform/external/libpng" groups="pdk" />
   <project path="external/libseccomp-helper" name="android/platform/external/libseccomp-helper" groups="pdk-cw-fs" />
@@ -168,12 +169,14 @@
   <project path="external/libutf" name="android/platform/external/libutf" groups="pdk-cw-fs" />
   <project path="external/libvorbis" name="android/platform/external/libvorbis" groups="pdk-cw-fs" />
   <project path="external/libvpx" name="android/platform/external/libvpx" groups="pdk" />
+  <project path="external/libvterm" name="android/platform/external/libvterm" groups="pdk-cw-fs" />
   <project path="external/libxml2" name="android/platform/external/libxml2" groups="pdk-cw-fs" />
   <project path="external/libyuv" name="android/platform/external/libyuv" groups="libyuv,pdk-cw-fs" />
   <project path="external/linux-tools-perf" name="android/platform/external/linux-tools-perf" groups="pdk-cw-fs" />
   <project path="external/littlemock" name="android/platform/external/littlemock" groups="pdk-cw-fs" />
   <project path="external/lldb" name="android/platform/external/lldb" groups="pdk-cw-fs" />
   <project path="external/llvm" name="android/platform/external/llvm" groups="pdk" />
+  <project path="external/lohit-fonts" name="android/platform/external/lohit-fonts" />
   <project path="external/ltrace" name="android/platform/external/ltrace" revision="rel-tegranote-l" groups="pdk-cw-fs" />
   <project path="external/lzma" name="android/platform/external/lzma" groups="pdk" />
   <project path="external/markdown" name="android/platform/external/markdown" groups="pdk-cw-fs" />
@@ -194,19 +197,21 @@
   <project path="external/nfacct" name="android/platform/external/nfacct" revision="rel-tegranote-l" groups="pdk-cw-fs" />
   <project path="external/nist-pkits" name="android/platform/external/nist-pkits" groups="pdk-cw-fs" />
   <project path="external/nist-sip" name="android/platform/external/nist-sip" groups="pdk-cw-fs" />
-  <project path="external/noto-fonts" name="android/platform/external/noto-fonts" groups="pdk-cw-fs" />
+  <project path="external/noto-fonts" name="android/platform/external/noto-fonts" groups="pdk" />
   <project path="external/oauth" name="android/platform/external/oauth" groups="pdk-cw-fs" />
   <project path="external/objenesis" name="android/platform/external/objenesis" groups="pdk-cw-fs" />
   <project path="external/okhttp" name="android/platform/external/okhttp" groups="pdk-cw-fs" />
   <project path="external/opencv" name="android/platform/external/opencv" groups="pdk-cw-fs" />
+  <project path="external/openfst" name="android/platform/external/openfst" groups="pdk-cw-fs"/>
+  <project path="external/openssh" name="android/platform/external/openssh" groups="pdk-cw-fs"/>
   <project path="external/openssl" name="android/platform/external/openssl" groups="pdk" />
   <project path="external/oprofile" name="android/platform/external/oprofile" revision="rel-tegranote-l" groups="pdk-cw-fs" />
   <project path="external/owasp/sanitizer" name="android/platform/external/owasp/sanitizer" />
   <project path="external/pcre" name="android/platform/external/pcre" groups="pdk-cw-fs" />
-  <project path="external/pdfium" name="android/platform/external/pdfium" />
+  <project path="external/pdfium" name="android/platform/external/pdfium" groups="pdk-cw-fs" />
   <project path="external/pixman" name="android/platform/external/pixman" groups="pdk-cw-fs" />
   <project path="external/ppp" name="android/platform/external/ppp" groups="pdk-cw-fs" />
-  <project path="external/proguard" name="android/platform/external/proguard" groups="pdk-java" />
+  <project path="external/proguard" name="android/platform/external/proguard" groups="pdk-java,tradefed" />
   <project path="external/protobuf" name="android/platform/external/protobuf" groups="pdk" />
   <project path="external/qemu" name="android/platform/external/qemu" revision="rel-tegranote-l" groups="pdk-cw-fs" />
   <project path="external/qemu-pc-bios" name="android/platform/external/qemu-pc-bios" groups="pdk-cw-fs" />
@@ -229,8 +234,8 @@
   <project path="external/strace" name="android/platform/external/strace" groups="pdk-cw-fs" />
   <project path="external/stressapptest" name="android/platform/external/stressapptest" groups="pdk-cw-fs" />
   <project path="external/svox" name="android/platform/external/svox" groups="pdk-cw-fs" />
-  <project path="external/tagsoup" name="android/platform/external/tagsoup" groups="pdk-cw-fs" />
-  <project path="external/tcpdump" name="android/platform/external/tcpdump" groups="pdk-cw-fs" />
+  <project path="external/tagsoup" name="android/platform/external/tagsoup" groups="pdk-cw-fs,tradefed" />
+  <project path="external/tcpdump" name="android/platform/external/tcpdump" groups="pdk,pdk-cw-fs" />
   <project path="external/timezonepicker-support" name="android/platform/external/timezonepicker-support" groups="pdk-cw-fs" />
   <project path="external/tinyalsa" name="android/platform/external/tinyalsa" groups="pdk" />
   <project path="external/tinycompress" name="android/platform/external/tinycompress" groups="pdk" />
@@ -246,7 +251,7 @@
   <project path="external/xmp_toolkit" name="android/platform/external/xmp_toolkit" groups="pdk-cw-fs" />
   <project path="external/yaffs2" name="android/platform/external/yaffs2" revision="rel-tegranote-l" groups="pdk" />
   <project path="external/zlib" name="android/platform/external/zlib" groups="pdk" />
-  <project path="external/zopfli" name="android/platform/external/zopfli" />
+  <project path="external/zopfli" name="android/platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="android/platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="android/platform/frameworks/av" groups="pdk" />
   <project path="frameworks/base" name="android/platform/frameworks/base" groups="pdk-cw-fs" />
@@ -281,7 +286,6 @@
   <project path="frameworks/opt/widget" name="android/platform/frameworks/opt/widget" groups="pdk-cw-fs" />
   <project path="frameworks/rs" name="android/platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="android/platform/frameworks/support" groups="pdk-cw-fs" />
-  <project path="frameworks/testing" name="android/platform/frameworks/testing" groups="pdk-cw-fs" />
   <project path="frameworks/volley" name="android/platform/frameworks/volley" groups="pdk-cw-fs" />
   <project path="frameworks/webview" name="android/platform/frameworks/webview" groups="pdk-cw-fs" />
   <project path="frameworks/wilhelm" name="android/platform/frameworks/wilhelm" groups="pdk-cw-fs" />
@@ -339,6 +343,7 @@
   <project path="packages/apps/SpeechRecorder" name="android/platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="android/platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="android/platform/packages/apps/Tag" />
+  <project path="packages/apps/Terminal" name="android/platform/packages/apps/Terminal" />
   <project path="packages/apps/TvSettings" name="android/platform/packages/apps/TvSettings" />
   <project path="packages/apps/UnifiedEmail" name="android/platform/packages/apps/UnifiedEmail" />
   <project path="packages/apps/VoiceDialer" name="android/platform/packages/apps/VoiceDialer" />
@@ -346,14 +351,14 @@
   <project path="packages/inputmethods/LatinIME" name="android/platform/packages/inputmethods/LatinIME" />
   <project path="packages/inputmethods/OpenWnn" name="android/platform/packages/inputmethods/OpenWnn" />
   <project path="packages/providers/ApplicationsProvider" name="android/platform/packages/providers/ApplicationsProvider" />
-  <project path="packages/providers/CalendarProvider" name="android/platform/packages/providers/CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="android/platform/packages/providers/ContactsProvider" />
+  <project path="packages/providers/CalendarProvider" name="android/platform/packages/providers/CalendarProvider" groups="pdk-cw-fs" />
+  <project path="packages/providers/ContactsProvider" name="android/platform/packages/providers/ContactsProvider" groups="pdk-cw-fs" />
   <project path="packages/providers/DownloadProvider" name="android/platform/packages/providers/DownloadProvider" groups="pdk-cw-fs" />
-  <project path="packages/providers/MediaProvider" name="android/platform/packages/providers/MediaProvider" />
+  <project path="packages/providers/MediaProvider" name="android/platform/packages/providers/MediaProvider" groups="pdk-cw-fs" />
   <project path="packages/providers/PartnerBookmarksProvider" name="android/platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="android/platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/TvProvider" name="android/platform/packages/providers/TvProvider" />
-  <project path="packages/providers/UserDictionaryProvider" name="android/platform/packages/providers/UserDictionaryProvider" />
+  <project path="packages/providers/UserDictionaryProvider" name="android/platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs" />
   <project path="packages/screensavers/Basic" name="android/platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="android/platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="android/platform/packages/screensavers/WebView" />
@@ -396,6 +401,7 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="android/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="android/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="android/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="android/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="android/platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="android/platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" groups="pdk,linux" />
@@ -404,17 +410,17 @@
   <project path="prebuilts/gradle-plugin" name="android/platform/prebuilts/gradle-plugin" groups="pdk-cw-fs" />
   <project path="prebuilts/libs/libedit" name="android/platform/prebuilts/libs/libedit" groups="pdk-cw-fs" />
   <project path="prebuilts/maven_repo/android" name="android/platform/prebuilts/maven_repo/android" groups="pdk-cw-fs" />
-  <project path="prebuilts/misc" name="android/platform/prebuilts/misc" groups="pdk" revision="rel-tegranote-l" />
+  <project path="prebuilts/misc" name="android/platform/prebuilts/misc" groups="pdk,tradefed" revision="rel-tegranote-l" />
   <project path="prebuilts/ndk" name="android/platform/prebuilts/ndk" groups="pdk" />
-  <project path="prebuilts/python/darwin-x86/2.7.5" name="android/platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk-cw-fs" />
-  <project path="prebuilts/python/linux-x86/2.7.5" name="android/platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk-cw-fs" />
+  <project path="prebuilts/python/darwin-x86/2.7.5" name="android/platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs" />
+  <project path="prebuilts/python/linux-x86/2.7.5" name="android/platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs" />
   <project path="prebuilts/qemu-kernel" name="android/platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" />
-  <project path="prebuilts/sdk" name="android/platform/prebuilts/sdk" groups="pdk" />
+  <project path="prebuilts/sdk" name="android/platform/prebuilts/sdk" groups="pdk,tradefed" />
   <project path="prebuilts/tools" name="android/platform/prebuilts/tools" revision="rel-tegranote-l" groups="pdk,tools" />
   <project path="sdk" name="android/platform/sdk" groups="pdk-cw-fs" />
   <project path="system/core" name="android/platform/system/core" groups="pdk" />
   <project path="system/extras" name="android/platform/system/extras" groups="pdk" />
-  <project path="system/keymaster" name="android/platform/system/keymaster" />
+  <project path="system/keymaster" name="android/platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="android/platform/system/media" groups="pdk" />
   <project path="system/netd" name="android/platform/system/netd" groups="pdk" />
   <project path="system/security" name="android/platform/system/security" groups="pdk" />
