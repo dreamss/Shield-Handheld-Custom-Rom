@@ -4,7 +4,7 @@
            fetch="ssh://git-master.nvidia.com:29418/"
            review="git-master.nvidia.com/r" />
 
-  <default revision="rel-22-l-mr1-partner"
+  <default revision="rel-22r11-partner"
            remote="origin" />
 
   <!-- BEGIN open-source projects -->
@@ -16,7 +16,7 @@
   <project path="art" name="android/platform/art" groups="pdk" />
   <project path="bionic" name="android/platform/bionic" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="android/platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
-  <project path="bootable/recovery" name="android/platform/bootable/recovery" revision="rel-22-l-mr1" groups="pdk" />
+  <project path="bootable/recovery" name="android/platform/bootable/recovery" groups="pdk" revision="rel-22r11" />
   <project path="cts" name="android/platform/cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="android/platform/dalvik" groups="pdk-cw-fs" />
   <project path="development" name="android/platform/development" groups="pdk-cw-fs" />
@@ -39,8 +39,8 @@
   <project path="external/apache-qp" name="android/platform/external/apache-qp" groups="pdk-cw-fs" />
   <project path="external/apache-xml" name="android/platform/external/apache-xml" groups="pdk-cw-fs" />
   <project path="external/arduino" name="android/platform/external/arduino" groups="pdk-cw-fs" />
-  <project path="external/bison" name="android/platform/external/bison" revision="rel-22-l-mr1" groups="pdk" />
-  <project path="external/blktrace" name="android/platform/external/blktrace" revision="rel-22-l-mr1" groups="pdk-cw-fs" />
+  <project path="external/bison" name="android/platform/external/bison" groups="pdk" revision="rel-22r11" />
+  <project path="external/blktrace" name="android/platform/external/blktrace" groups="pdk-cw-fs" revision="rel-22r11" />
   <project path="external/bluetooth/bluedroid" name="android/platform/external/bluetooth/bluedroid" groups="pdk" />
   <project path="external/bouncycastle" name="android/platform/external/bouncycastle" groups="pdk" />
   <project path="external/bsdiff" name="android/platform/external/bsdiff" groups="pdk" />
@@ -77,7 +77,7 @@
   <project path="external/chromium_org/third_party/smhasher/src" name="android/platform/external/chromium_org/third_party/smhasher/src" />
   <project path="external/chromium_org/third_party/usrsctp/usrsctplib" name="android/platform/external/chromium_org/third_party/usrsctp/usrsctplib" />
   <project path="external/chromium_org/third_party/webrtc" name="android/platform/external/chromium_org/third_party/webrtc" />
-  <project path="external/chromium_org/third_party/yasm/source/patched-yasm" name="android/platform/external/chromium_org/third_party/yasm/source/patched-yasm" revision="rel-22-l-mr1" />
+  <project path="external/chromium_org/third_party/yasm/source/patched-yasm" name="android/platform/external/chromium_org/third_party/yasm/source/patched-yasm" revision="rel-22r11" />
   <project path="external/chromium_org/tools/grit" name="android/platform/external/chromium_org/tools/grit" />
   <project path="external/chromium_org/tools/gyp" name="android/platform/external/chromium_org/tools/gyp" />
   <project path="external/chromium_org/v8" name="android/platform/external/chromium_org/v8" />
@@ -88,7 +88,7 @@
   <project path="external/deqp" name="android/platform/external/deqp" />
   <project path="external/dexmaker" name="android/platform/external/dexmaker" groups="pdk-cw-fs" />
   <project path="external/dhcpcd" name="android/platform/external/dhcpcd" groups="pdk-cw-fs" />
-  <project path="external/dnsmasq" name="android/platform/external/dnsmasq" revision="rel-22-l-mr1" groups="pdk" />
+  <project path="external/dnsmasq" name="android/platform/external/dnsmasq" groups="pdk" revision="rel-22r11" />
   <project path="external/doclava" name="android/platform/external/doclava" groups="pdk-cw-fs" />
   <project path="external/droiddriver" name="android/platform/external/droiddriver" groups="pdk-cw-fs" />
   <project path="external/e2fsprogs" name="android/platform/external/e2fsprogs" groups="pdk" />
@@ -101,15 +101,15 @@
   <project path="external/esd" name="android/platform/external/esd" groups="pdk-cw-fs" />
   <project path="external/expat" name="android/platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="android/platform/external/eyes-free" groups="pdk-cw-fs" />
-  <project path="external/f2fs-tools" name="android/platform/external/f2fs-tools" revision="rel-22-l-mr1" groups="pdk" />
+  <project path="external/f2fs-tools" name="android/platform/external/f2fs-tools" groups="pdk" revision="rel-22r11" />
   <project path="external/fdlibm" name="android/platform/external/fdlibm" groups="pdk" />
-  <project path="external/fio" name="android/platform/external/fio" revision="rel-22-l-mr1" />
+  <project path="external/fio" name="android/platform/external/fio" revision="rel-22r11" />
   <project path="external/flac" name="android/platform/external/flac" groups="pdk" />
   <project path="external/fonttools" name="android/platform/external/fonttools" />
   <project path="external/freetype" name="android/platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="android/platform/external/fsck_msdos" groups="pdk-cw-fs" />
-  <project path="external/gcc-demangle" name="android/platform/external/gcc-demangle" revision="rel-22-l-mr1" groups="pdk" />
-  <project path="external/genext2fs" name="android/platform/external/genext2fs" revision="rel-22-l-mr1" groups="pdk-cw-fs" />
+  <project path="external/gcc-demangle" name="android/platform/external/gcc-demangle" groups="pdk" revision="rel-22r11" />
+  <project path="external/genext2fs" name="android/platform/external/genext2fs" groups="pdk-cw-fs" revision="rel-22r11" />
   <project path="external/glide" name="android/platform/external/glide" />
   <project path="external/giflib" name="android/platform/external/giflib" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/google-diff-match-patch" name="android/platform/external/google-diff-match-patch" groups="pdk-cw-fs" />
@@ -123,7 +123,7 @@
   <project path="external/hamcrest" name="android/platform/external/hamcrest" groups="pdk-cw-fs" />
   <project path="external/harfbuzz_ng" name="android/platform/external/harfbuzz_ng" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/icu" name="android/platform/external/icu" groups="pdk" />
-  <project path="external/iproute2" name="android/platform/external/iproute2" revision="rel-22-l-mr1" groups="pdk" />
+  <project path="external/iproute2" name="android/platform/external/iproute2" groups="pdk" revision="rel-22r11" />
   <project path="external/ipsec-tools" name="android/platform/external/ipsec-tools" groups="pdk-cw-fs" />
   <project path="external/iptables" name="android/platform/external/iptables" groups="pdk-cw-fs" />
   <project path="external/iputils" name="android/platform/external/iputils" groups="pdk-cw-fs" />
@@ -131,7 +131,7 @@
   <project path="external/jarjar" name="android/platform/external/jarjar" groups="pdk" />
   <project path="external/javasqlite" name="android/platform/external/javasqlite" groups="pdk-cw-fs" />
   <project path="external/javassist" name="android/platform/external/javassist" groups="pdk-cw-fs" />
-  <project path="external/jdiff" name="android/platform/external/jdiff" revision="rel-22-l-mr1" groups="pdk-cw-fs" />
+  <project path="external/jdiff" name="android/platform/external/jdiff" groups="pdk-cw-fs" revision="rel-22r11" />
   <project path="external/jemalloc" name="android/platform/external/jemalloc" />
   <project path="external/jhead" name="android/platform/external/jhead" groups="pdk" />
   <project path="external/jmdns" name="android/platform/external/jmdns" groups="pdk-cw-fs" />
@@ -142,19 +142,19 @@
   <project path="external/jsr305" name="android/platform/external/jsr305" groups="pdk-cw-fs" />
   <project path="external/junit" name="android/platform/external/junit" groups="pdk-cw-fs" />
   <project path="external/ksoap2" name="android/platform/external/ksoap2" />
-  <project path="external/kernel-headers" name="android/platform/external/kernel-headers" revision="rel-22-l-mr1" />
-  <project path="external/libcap-ng" name="android/platform/external/libcap-ng" revision="rel-22-l-mr1" groups="pdk-cw-fs" />
+  <project path="external/kernel-headers" name="android/platform/external/kernel-headers" revision="rel-22r11" />
+  <project path="external/libcap-ng" name="android/platform/external/libcap-ng" groups="pdk-cw-fs" revision="rel-22r11" />
   <project path="external/libcxx" name="android/platform/external/libcxx" groups="pdk" />
   <project path="external/libcxxabi" name="android/platform/external/libcxxabi" groups="pdk" />
   <project path="external/libedit" name="android/platform/external/libedit" />
-  <project path="external/libexif" name="android/platform/external/libexif" revision="rel-22-l-mr1" groups="pdk-cw-fs" />
+  <project path="external/libexif" name="android/platform/external/libexif" groups="pdk-cw-fs" revision="rel-22r11" />
   <project path="external/libhevc" name="android/platform/external/libhevc" />
   <project path="external/libgsm" name="android/platform/external/libgsm" groups="pdk" />
   <project path="external/liblzf" name="android/platform/external/liblzf" groups="pdk" />
   <project path="external/libmtp" name="android/platform/external/libmtp" groups="pdk-cw-fs" />
   <project path="external/libnfc-nci" name="android/platform/external/libnfc-nci" groups="pdk" />
   <project path="external/libnfc-nxp" name="android/platform/external/libnfc-nxp" groups="pdk" />
-  <project path="external/libnl" name="android/platform/external/libnl" revision="rel-22-l-mr1" groups="pdk" />
+  <project path="external/libnl" name="android/platform/external/libnl" groups="pdk" revision="rel-22r11" />
   <project path="external/libogg" name="android/platform/external/libogg" groups="pdk" />
   <project path="external/libopus" name="android/platform/external/libopus" groups="pdk" />
   <project path="external/libpcap" name="android/platform/external/libpcap" groups="pdk-cw-fs" />
@@ -169,7 +169,7 @@
   <project path="external/libusb-compat" name="android/platform/external/libusb-compat" groups="pdk-cw-fs" />
   <project path="external/libutf" name="android/platform/external/libutf" groups="pdk-cw-fs" />
   <project path="external/libvorbis" name="android/platform/external/libvorbis" groups="pdk-cw-fs" />
-  <project path="external/libvpx" name="android/platform/external/libvpx" groups="pdk" />
+  <project path="external/libvpx" name="android/platform/external/libvpx" groups="pdk" revision="rel-22r11" />
   <project path="external/libvterm" name="android/platform/external/libvterm" groups="pdk-cw-fs" />
   <project path="external/libxml2" name="android/platform/external/libxml2" groups="pdk-cw-fs" />
   <project path="external/libyuv" name="android/platform/external/libyuv" groups="libyuv,pdk-cw-fs" />
@@ -178,7 +178,7 @@
   <project path="external/lldb" name="android/platform/external/lldb" groups="pdk-cw-fs" />
   <project path="external/llvm" name="android/platform/external/llvm" groups="pdk" />
   <project path="external/lohit-fonts" name="android/platform/external/lohit-fonts" />
-  <project path="external/ltrace" name="android/platform/external/ltrace" revision="rel-22-l-mr1" groups="pdk-cw-fs" />
+  <project path="external/ltrace" name="android/platform/external/ltrace" groups="pdk-cw-fs" revision="rel-22r11" />
   <project path="external/lzma" name="android/platform/external/lzma" groups="pdk" />
   <project path="external/markdown" name="android/platform/external/markdown" groups="pdk-cw-fs" />
   <project path="external/mdnsresponder" name="android/platform/external/mdnsresponder" groups="pdk" />
@@ -195,7 +195,7 @@
   <project path="external/netcat" name="android/platform/external/netcat" groups="pdk-cw-fs" />
   <project path="external/netperf" name="android/platform/external/netperf" groups="pdk-cw-fs" />
   <project path="external/neven" name="android/platform/external/neven" groups="pdk-cw-fs" />
-  <project path="external/nfacct" name="android/platform/external/nfacct" revision="rel-22-l-mr1" groups="pdk-cw-fs" />
+  <project path="external/nfacct" name="android/platform/external/nfacct" groups="pdk-cw-fs" revision="rel-22r11" />
   <project path="external/nist-pkits" name="android/platform/external/nist-pkits" groups="pdk-cw-fs" />
   <project path="external/nist-sip" name="android/platform/external/nist-sip" groups="pdk-cw-fs" />
   <project path="external/noto-fonts" name="android/platform/external/noto-fonts" groups="pdk-cw-fs" />
@@ -206,7 +206,7 @@
   <project path="external/openfst" name="android/platform/external/openfst" groups="pdk-cw-fs" />
   <project path="external/openssh" name="android/platform/external/openssh" groups="pdk-cw-fs" />
   <project path="external/openssl" name="android/platform/external/openssl" groups="pdk" />
-  <project path="external/oprofile" name="android/platform/external/oprofile" revision="rel-22-l-mr1" groups="pdk-cw-fs" />
+  <project path="external/oprofile" name="android/platform/external/oprofile" groups="pdk-cw-fs" revision="rel-22r11" />
   <project path="external/owasp/sanitizer" name="android/platform/external/owasp/sanitizer" />
   <project path="external/pcre" name="android/platform/external/pcre" groups="pdk-cw-fs" />
   <project path="external/pdfium" name="android/platform/external/pdfium" />
@@ -214,7 +214,7 @@
   <project path="external/ppp" name="android/platform/external/ppp" groups="pdk-cw-fs" />
   <project path="external/proguard" name="android/platform/external/proguard" groups="pdk-java" />
   <project path="external/protobuf" name="android/platform/external/protobuf" groups="pdk" />
-  <project path="external/qemu" name="android/platform/external/qemu" revision="rel-22-l-mr1" groups="pdk-cw-fs" />
+  <project path="external/qemu" name="android/platform/external/qemu" groups="pdk-cw-fs" revision="rel-22r11" />
   <project path="external/qemu-pc-bios" name="android/platform/external/qemu-pc-bios" groups="pdk-cw-fs" />
   <project path="external/regex-re2" name="android/platform/external/regex-re2" groups="pdk-cw-fs" />
   <project path="external/replicaisland" name="android/platform/external/replicaisland" groups="pdk-cw-fs" />
@@ -243,14 +243,14 @@
   <project path="external/tinyxml" name="android/platform/external/tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="android/platform/external/tinyxml2" groups="pdk" />
   <project path="external/tremolo" name="android/platform/external/tremolo" groups="pdk" />
-  <project path="external/valgrind" name="android/platform/external/valgrind" revision="rel-22-l-mr1" groups="pdk" />
+  <project path="external/valgrind" name="android/platform/external/valgrind" groups="pdk" revision="rel-22r11" />
   <project path="external/vixl" name="android/platform/external/vixl" groups="pdk" />
   <project path="external/webp" name="android/platform/external/webp" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/webrtc" name="android/platform/external/webrtc" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="android/platform/external/wpa_supplicant_8" groups="pdk" />
   <project path="external/xmlwriter" name="android/platform/external/xmlwriter" groups="pdk-cw-fs" />
   <project path="external/xmp_toolkit" name="android/platform/external/xmp_toolkit" groups="pdk-cw-fs" />
-  <project path="external/yaffs2" name="android/platform/external/yaffs2" revision="rel-22-l-mr1" groups="pdk" />
+  <project path="external/yaffs2" name="android/platform/external/yaffs2" groups="pdk" revision="rel-22r11" />
   <project path="external/zlib" name="android/platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="android/platform/external/zopfli" />
   <project path="external/zxing" name="android/platform/external/zxing" groups="pdk-cw-fs" />
@@ -301,7 +301,7 @@
   <project path="hardware/ril" name="android/platform/hardware/ril" groups="pdk" />
   <project path="libcore" name="android/platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="android/platform/libnativehelper" groups="pdk" />
-  <project path="ndk" name="android/platform/ndk" revision="rel-22-l-mr1" />
+  <project path="ndk" name="android/platform/ndk" revision="rel-22r11" />
   <project path="packages/apps/BasicSmsReceiver" name="android/platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="android/platform/packages/apps/Bluetooth" groups="pdk-cw-fs" />
   <project path="packages/apps/Browser" name="android/platform/packages/apps/Browser" />
@@ -411,13 +411,13 @@
   <project path="prebuilts/gradle-plugin" name="android/platform/prebuilts/gradle-plugin" groups="pdk-cw-fs" />
   <project path="prebuilts/libs/libedit" name="android/platform/prebuilts/libs/libedit" groups="pdk-cw-fs" />
   <project path="prebuilts/maven_repo/android" name="android/platform/prebuilts/maven_repo/android" groups="pdk-cw-fs" />
-  <project path="prebuilts/misc" name="android/platform/prebuilts/misc" revision="rel-22-l-mr1" groups="pdk" />
+  <project path="prebuilts/misc" name="android/platform/prebuilts/misc" groups="pdk" revision="rel-22r11" />
   <project path="prebuilts/ndk" name="android/platform/prebuilts/ndk" groups="pdk" />
   <project path="prebuilts/python/darwin-x86/2.7.5" name="android/platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk-cw-fs" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="android/platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk-cw-fs" />
   <project path="prebuilts/qemu-kernel" name="android/platform/prebuilts/qemu-kernel" groups="pdk" />
   <project path="prebuilts/sdk" name="android/platform/prebuilts/sdk" groups="pdk" />
-  <project path="prebuilts/tools" name="android/platform/prebuilts/tools" revision="rel-22-l-mr1" groups="pdk,tools" />
+  <project path="prebuilts/tools" name="android/platform/prebuilts/tools" groups="pdk,tools" revision="rel-22r11" />
   <project path="sdk" name="android/platform/sdk" groups="pdk-cw-fs" />
   <project path="system/core" name="android/platform/system/core" groups="pdk" />
   <project path="system/extras" name="android/platform/system/extras" groups="pdk" />
@@ -426,18 +426,18 @@
   <project path="system/netd" name="android/platform/system/netd" groups="pdk" />
   <project path="system/security" name="android/platform/system/security" groups="pdk" />
   <project path="system/vold" name="android/platform/system/vold" groups="pdk" />
-  <project path="tools/external/fat32lib" name="android/platform/tools/external/fat32lib" revision="rel-22-l-mr1" groups="tools" />
+  <project path="tools/external/fat32lib" name="android/platform/tools/external/fat32lib" groups="tools" revision="rel-22r11" />
   <project path="tools/external/gradle" name="android/platform/tools/external/gradle" groups="tools" />
 
   <!-- END open-source projects -->
 
   <!-- Begin NVIDIA projects -->
 
-  <project path="kernel" name="linux-3.10" revision="rel-22" />
-  <project path="device/nvidia" name="tegra/prebuilts-device-nvidia" revision="rel-22-partner" />
-  <project path="vendor/nvidia/build" name="android/platform/vendor/nvidia/build" revision="rel-22" />
-  <project path="external/alsa-lib" name="android/platform/external/alsa-lib" revision="rel-22" />
-  <project path="vendor/nvidia/licensed-binaries" name="tegra/prebuilts-licensed-binary-tlk-t210" revision="rel-22-partner" />
+  <project path="kernel" name="linux-3.10" revision="rel-22r11" />
+  <project path="device/nvidia" name="tegra/prebuilts-device-nvidia" />
+  <project path="vendor/nvidia/build" name="android/platform/vendor/nvidia/build" revision="rel-22r11" />
+  <project path="external/alsa-lib" name="android/platform/external/alsa-lib" revision="rel-22r11" />
+  <project path="vendor/nvidia/licensed-binaries" name="tegra/prebuilts-licensed-binary-tlk-t210" />
 
   <!-- End NVIDIA projects -->
 
