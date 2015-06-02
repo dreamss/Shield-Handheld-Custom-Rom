@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="origin"
-           fetch="ssh://git-master.nvidia.com:29418/"
+           fetch="../.."
            review="git-master.nvidia.com/r" />
 
   <default revision="rel-22r11-partner"
