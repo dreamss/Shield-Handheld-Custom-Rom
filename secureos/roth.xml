@@ -292,7 +292,6 @@
   <project path="hardware/libhardware" name="android/platform/hardware/libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="android/platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/nvidia/audio" name="android/platform/hardware/nvidia/audio" groups="nvidia_audio" />
-  <project path="hardware/nvidia/tegra124" name="android/platform/hardware/nvidia/tegra124" groups="tegra124" />
   <project path="hardware/ril" name="android/platform/hardware/ril" groups="pdk" />
   <project path="libcore" name="android/platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="android/platform/libnativehelper" groups="pdk" />
@@ -308,7 +307,6 @@
   <project path="packages/apps/CertInstaller" name="android/platform/packages/apps/CertInstaller" groups="pdk-cw-fs" />
   <project path="packages/apps/Contacts" name="android/platform/packages/apps/Contacts" />
   <project path="packages/apps/ContactsCommon" name="android/platform/packages/apps/ContactsCommon" />
-  <project path="packages/apps/DeskClock" name="android/platform/packages/apps/DeskClock" />
   <project path="packages/apps/Dialer" name="android/platform/packages/apps/Dialer" />
   <project path="packages/apps/Email" name="android/platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="android/platform/packages/apps/Exchange" />
