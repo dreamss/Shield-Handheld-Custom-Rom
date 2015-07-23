@@ -11,7 +11,7 @@ http://source.android.com/source/downloading.html#installing-repo
 
 mkdir ~/shieldtablet-open-source
 cd ~/shieldtablet-open-source
-repo init -u git://nv-tegra.nvidia.com/manifest/android/binary.git -b rel-st8-l-partner -m tlk/shieldtablet.xml
+repo init -u git://nv-tegra.nvidia.com/manifest/android/binary.git -b rel-st8-l-r5-partner -m tlk/shieldtablet.xml
 repo sync -j5
 
 
