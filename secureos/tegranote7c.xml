@@ -132,7 +132,6 @@
   <project path="external/jdiff" name="android/platform/external/jdiff" revision="rel-tegranote-l" groups="pdk-cw-fs" />
   <project path="external/jemalloc" name="android/platform/external/jemalloc" groups="pdk" />
   <project path="external/jhead" name="android/platform/external/jhead" groups="pdk" />
-  <project path="external/jline" name="android/platform/external/jline" groups="notdefault,tradefed" />
   <project path="external/jmdns" name="android/platform/external/jmdns" groups="pdk-cw-fs" />
   <project path="external/jpeg" name="android/platform/external/jpeg" groups="pdk" />
   <project path="external/jsilver" name="android/platform/external/jsilver" groups="pdk-cw-fs,tradefed" />
